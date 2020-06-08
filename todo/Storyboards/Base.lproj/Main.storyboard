@@ -106,7 +106,12 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="JWA-Wd-abE" userLabel="PriorityControlStack" customClass="PriorityControl" customModule="todo" customModuleProvider="target">
-                                <rect key="frame" x="146" y="194" width="122" height="30"/>
+                                <rect key="frame" x="101" y="194" width="212" height="60"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="prioritySize">
+                                        <size key="value" width="60" height="60"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
