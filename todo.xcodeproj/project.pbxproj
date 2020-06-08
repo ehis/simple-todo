@@ -3,18 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD3D9CE2248B0DCB00D3DC9D /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3D9CE1248B0DCB00D3DC9D /* TodoItem.swift */; };
+		CD3D9CE4248B17A500D3DC9D /* TodoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3D9CE3248B17A500D3DC9D /* TodoViewModel.swift */; };
+		CD6D5345248D24E900B0904E /* PriorityControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6D5344248D24E900B0904E /* PriorityControl.swift */; };
+		CD6D5347248D25EE00B0904E /* TodoItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6D5346248D25EE00B0904E /* TodoItemViewController.swift */; };
 		CDB6C388248ADC9300DDFE52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB6C387248ADC9300DDFE52 /* AppDelegate.swift */; };
 		CDB6C38A248ADC9300DDFE52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB6C389248ADC9300DDFE52 /* SceneDelegate.swift */; };
-		CDB6C38C248ADC9300DDFE52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB6C38B248ADC9300DDFE52 /* ViewController.swift */; };
+		CDB6C38C248ADC9300DDFE52 /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB6C38B248ADC9300DDFE52 /* TodoViewController.swift */; };
 		CDB6C38F248ADC9300DDFE52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB6C38D248ADC9300DDFE52 /* Main.storyboard */; };
 		CDB6C391248ADC9500DDFE52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB6C390248ADC9500DDFE52 /* Assets.xcassets */; };
 		CDB6C394248ADC9500DDFE52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB6C392248ADC9500DDFE52 /* LaunchScreen.storyboard */; };
 		CDB6C39F248ADC9500DDFE52 /* todoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB6C39E248ADC9500DDFE52 /* todoTests.swift */; };
 		CDB6C3AA248ADC9500DDFE52 /* todoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB6C3A9248ADC9500DDFE52 /* todoUITests.swift */; };
+		CDD94765248B1E1F00338E6E /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CDD94764248B1E1F00338E6E /* RxSwift */; };
+		CDD94767248B1E1F00338E6E /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = CDD94766248B1E1F00338E6E /* RxRelay */; };
+		CDD94769248B1E1F00338E6E /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = CDD94768248B1E1F00338E6E /* RxCocoa */; };
+		CDD9476B248B1E1F00338E6E /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = CDD9476A248B1E1F00338E6E /* RxBlocking */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD3D9CE1248B0DCB00D3DC9D /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
+		CD3D9CE3248B17A500D3DC9D /* TodoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewModel.swift; sourceTree = "<group>"; };
+		CD6D5344248D24E900B0904E /* PriorityControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityControl.swift; sourceTree = "<group>"; };
+		CD6D5346248D25EE00B0904E /* TodoItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItemViewController.swift; sourceTree = "<group>"; };
 		CDB6C384248ADC9300DDFE52 /* todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDB6C387248ADC9300DDFE52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDB6C389248ADC9300DDFE52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CDB6C38B248ADC9300DDFE52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDB6C38B248ADC9300DDFE52 /* TodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
 		CDB6C38E248ADC9300DDFE52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDB6C390248ADC9500DDFE52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDB6C393248ADC9500DDFE52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +68,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDD94769248B1E1F00338E6E /* RxCocoa in Frameworks */,
+				CDD9476B248B1E1F00338E6E /* RxBlocking in Frameworks */,
+				CDD94767248B1E1F00338E6E /* RxRelay in Frameworks */,
+				CDD94765248B1E1F00338E6E /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +99,7 @@
 				CDB6C39D248ADC9500DDFE52 /* todoTests */,
 				CDB6C3A8248ADC9500DDFE52 /* todoUITests */,
 				CDB6C385248ADC9300DDFE52 /* Products */,
+				CDD9476C248B1E6F00338E6E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +116,13 @@
 		CDB6C386248ADC9300DDFE52 /* todo */ = {
 			isa = PBXGroup;
 			children = (
+				CDB6C3BA248ADCD200DDFE52 /* Views */,
+				CDB6C3B9248ADCC900DDFE52 /* ViewModels */,
+				CDB6C3B8248ADCB900DDFE52 /* Models */,
+				CDB6C3B7248ADCA000DDFE52 /* Storyboards */,
 				CDB6C387248ADC9300DDFE52 /* AppDelegate.swift */,
 				CDB6C389248ADC9300DDFE52 /* SceneDelegate.swift */,
-				CDB6C38B248ADC9300DDFE52 /* ViewController.swift */,
-				CDB6C38D248ADC9300DDFE52 /* Main.storyboard */,
 				CDB6C390248ADC9500DDFE52 /* Assets.xcassets */,
-				CDB6C392248ADC9500DDFE52 /* LaunchScreen.storyboard */,
 				CDB6C395248ADC9500DDFE52 /* Info.plist */,
 			);
 			path = todo;
@@ -128,6 +146,48 @@
 			path = todoUITests;
 			sourceTree = "<group>";
 		};
+		CDB6C3B7248ADCA000DDFE52 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CDB6C392248ADC9500DDFE52 /* LaunchScreen.storyboard */,
+				CDB6C38D248ADC9300DDFE52 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		CDB6C3B8248ADCB900DDFE52 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CD3D9CE1248B0DCB00D3DC9D /* TodoItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CDB6C3B9248ADCC900DDFE52 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CD3D9CE3248B17A500D3DC9D /* TodoViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CDB6C3BA248ADCD200DDFE52 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CDB6C38B248ADC9300DDFE52 /* TodoViewController.swift */,
+				CD6D5344248D24E900B0904E /* PriorityControl.swift */,
+				CD6D5346248D25EE00B0904E /* TodoItemViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CDD9476C248B1E6F00338E6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +204,12 @@
 			dependencies = (
 			);
 			name = todo;
+			packageProductDependencies = (
+				CDD94764248B1E1F00338E6E /* RxSwift */,
+				CDD94766248B1E1F00338E6E /* RxRelay */,
+				CDD94768248B1E1F00338E6E /* RxCocoa */,
+				CDD9476A248B1E1F00338E6E /* RxBlocking */,
+			);
 			productName = todo;
 			productReference = CDB6C384248ADC9300DDFE52 /* todo.app */;
 			productType = "com.apple.product-type.application";
@@ -216,6 +282,9 @@
 				Base,
 			);
 			mainGroup = CDB6C37B248ADC9300DDFE52;
+			packageReferences = (
+				CDD94763248B1E1F00338E6E /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = CDB6C385248ADC9300DDFE52 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,9 +328,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDB6C38C248ADC9300DDFE52 /* ViewController.swift in Sources */,
+				CDB6C38C248ADC9300DDFE52 /* TodoViewController.swift in Sources */,
 				CDB6C388248ADC9300DDFE52 /* AppDelegate.swift in Sources */,
+				CD3D9CE2248B0DCB00D3DC9D /* TodoItem.swift in Sources */,
+				CD3D9CE4248B17A500D3DC9D /* TodoViewModel.swift in Sources */,
+				CD6D5347248D25EE00B0904E /* TodoItemViewController.swift in Sources */,
 				CDB6C38A248ADC9300DDFE52 /* SceneDelegate.swift in Sources */,
+				CD6D5345248D24E900B0904E /* PriorityControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,6 +657,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CDD94763248B1E1F00338E6E /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CDD94764248B1E1F00338E6E /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDD94763248B1E1F00338E6E /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		CDD94766248B1E1F00338E6E /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDD94763248B1E1F00338E6E /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		CDD94768248B1E1F00338E6E /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDD94763248B1E1F00338E6E /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		CDD9476A248B1E1F00338E6E /* RxBlocking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDD94763248B1E1F00338E6E /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxBlocking;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CDB6C37C248ADC9300DDFE52 /* Project object */;
 }
