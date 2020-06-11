@@ -101,7 +101,7 @@
                                 </subviews>
                             </stackView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="What's the plan?" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HGN-tA-0Rv">
-                                <rect key="frame" x="20" y="130" width="374" height="34"/>
+                                <rect key="frame" x="126" y="130" width="162.5" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -122,9 +122,7 @@
                             <constraint firstItem="04Q-e1-8jC" firstAttribute="trailing" secondItem="64Z-ge-to9" secondAttribute="trailing" constant="20" id="MBP-l9-U7Q"/>
                             <constraint firstItem="64Z-ge-to9" firstAttribute="leading" secondItem="04Q-e1-8jC" secondAttribute="leading" constant="20" id="SbO-Qr-tYV"/>
                             <constraint firstItem="64Z-ge-to9" firstAttribute="top" secondItem="04Q-e1-8jC" secondAttribute="top" constant="20" id="Ta0-aC-OwC"/>
-                            <constraint firstItem="04Q-e1-8jC" firstAttribute="trailing" secondItem="HGN-tA-0Rv" secondAttribute="trailing" constant="20" id="e3S-KE-zj6"/>
                             <constraint firstItem="JWA-Wd-abE" firstAttribute="top" secondItem="HGN-tA-0Rv" secondAttribute="bottom" constant="30" id="oIa-7N-2vI"/>
-                            <constraint firstItem="HGN-tA-0Rv" firstAttribute="leading" secondItem="04Q-e1-8jC" secondAttribute="leading" constant="20" id="vu0-pn-6zr"/>
                             <constraint firstItem="JWA-Wd-abE" firstAttribute="centerX" secondItem="Pl1-IY-y68" secondAttribute="centerX" id="yK1-OT-Ru6"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="04Q-e1-8jC"/>
