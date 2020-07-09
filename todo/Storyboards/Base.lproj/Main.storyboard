@@ -101,7 +101,7 @@
                                 </subviews>
                             </stackView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="What's the plan?" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HGN-tA-0Rv">
-                                <rect key="frame" x="126" y="130" width="162.5" height="34"/>
+                                <rect key="frame" x="20" y="130" width="374" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -123,6 +123,8 @@
                             <constraint firstItem="64Z-ge-to9" firstAttribute="leading" secondItem="04Q-e1-8jC" secondAttribute="leading" constant="20" id="SbO-Qr-tYV"/>
                             <constraint firstItem="64Z-ge-to9" firstAttribute="top" secondItem="04Q-e1-8jC" secondAttribute="top" constant="20" id="Ta0-aC-OwC"/>
                             <constraint firstItem="JWA-Wd-abE" firstAttribute="top" secondItem="HGN-tA-0Rv" secondAttribute="bottom" constant="30" id="oIa-7N-2vI"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="HGN-tA-0Rv" secondAttribute="trailing" id="ogx-nR-WSK"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="HGN-tA-0Rv" secondAttribute="leading" id="rrT-CS-RZW"/>
                             <constraint firstItem="JWA-Wd-abE" firstAttribute="centerX" secondItem="Pl1-IY-y68" secondAttribute="centerX" id="yK1-OT-Ru6"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="04Q-e1-8jC"/>
